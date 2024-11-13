@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starting with css-Assign1</title>
+    <style>
+        .p1{
+            color: blue;
+            background-color: aqua;
+        }
+        .p3 p{
+            color:green;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <!-- below heading css is inline style using style attribute. -->
+        <h1 style="color: aquamarine;background-color: burlywood;">This is heading</h1>
+        <!-- below paragraph css is internal css,using style tag added in head tag. -->
+        <p class="p1">2. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias neque officiis, mollitia facilis nisi soluta numquam animi tempora officia perspiciatis dolorum deserunt, omnis asperiores quaerat dolores autem obcaecati, esse laudantium!
+        Illo eum sint quaerat, perferendis unde et, </p>
+        <!--  below paragraph css is internal css,using .css external file whose link is added above in head section. -->
+        <p class="p2">3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt doloribus aspernatur vitae, facere repellendus amet.</p>
+    </div>
+    <!-- For the below p element applied in-line,internal & external css.But inline is applied as inline>internal>external.  -->
+    <div class="p3">
+        <p style="color: red">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, expedita.
+        </p>
+    </div>
+    
+</body>
+</html>

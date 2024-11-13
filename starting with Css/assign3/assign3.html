@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>starting with Css3</title>
+    <style>
+        .box{
+            border:black 1px solid;
+            padding: 10px;
+            background-color: rgb(237, 230, 237);
+           
+        }
+        input[type=text],input[type=email],input[type=password]{
+            width: 100%;
+            margin-top: 5px;
+            background-color: rgb(219, 210, 199);
+            padding: 5px;
+        }
+        /* created custom color palette for submit button and add opacity by using rgba. */
+        button{
+            background-color: rgba(158, 246, 100,0.5);
+            width: 100%;
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        <form action="">
+            <label for="">Name:</label>
+            <input type="text" name="" id="" placeholder="Enter your name" required>
+            <br>
+            <br>
+            <label for="">Email :</label>
+            <input type="email" name="" id="" placeholder="Enter your Email" required>
+            <br>
+            <br>
+            <label for="">Enter your password:</label>
+            <input type="password" name="" id="" placeholder="Enter your password" required>
+            <br>
+            <label>Gender:</label>
+            <input type="radio" name="Gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="female">
+            <label for="female">Female</label>
+            
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+            
+        </form>
+    </div>
+</body>
+</html>

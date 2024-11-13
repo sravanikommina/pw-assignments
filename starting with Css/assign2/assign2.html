@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starting with Css -2</title>
+    <style>
+        .Main{
+            background-color: beige;
+            border: black solid 2px;
+            justify-content: center;
+            text-align: center;
+        }
+        .Main__heading{
+            color:blueviolet
+        }
+        .Main__content{
+            color: rgb(168, 16, 16);
+        }
+        .Main__content--p2{
+            color:blue
+        }
+    </style>
+</head>
+<body>
+    <!-- Main div container is Block.H1 and other div are elements as they are part of Main container so added class name as Main__heading/Main__content. -->
+     <!-- paragraphs inside of div are modifiers. -->
+    <div class="Main">
+        <h1 class="Main__heading">Heading</h1>
+        <div class="Main__content">
+            <p class="Main Main__content--p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem ipsum itaque, hic provident eum vero voluptas
+                reprehenderit totam nisi unde.</p>
+            <p class="Main Main__content--p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, asperiores.</p>
+        </div>
+    </div>
+</body>
+</html>
