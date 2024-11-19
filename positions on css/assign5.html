@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position in css5</title>
+    <style>
+        .image-container img{
+            height: 400px;
+            width: 350px;
+            display: inline-block;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            margin:15px;
+        }
+        #image2{
+            z-index: 180;
+        }
+        #image1{
+            z-index: 80;
+        }
+        #image3{
+            z-index: 50;
+        }
+        #image4{
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img id="image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSPwdu9836EtkfCa1MRvMVDBvS4cUdfKNsIA&s" alt="">
+        <img id="image2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTDNAnsS4EPlZEvfTg4vq4RH6uRh2OxQk7YA&s" alt="">
+        <img id="image3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSclH8E1YQ7C1hwxsSJ-eAR59iJeMVnJKgN7w&s" alt="">
+        <img id="image4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2QMaPW-ufhGlY1rg-PgZcA0kRYPFVBqlZog&s" alt="">
+    </div>
+</body>
+</html>

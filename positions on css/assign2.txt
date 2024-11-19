@@ -1,0 +1,6 @@
+Q. Difference between absolute and relative positioning?
+
+Ans: relative positioning makes its element display with respective to its normal position and it doesnt effect other elements.
+we can set element position using top,left,right,bottom.
+
+absolute positioning displays element wrt its nearest reltive element.

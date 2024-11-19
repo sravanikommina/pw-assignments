@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions in css</title>
+    <STyle>
+        .child{
+            height: 50px;
+            width: 50px;
+            border: rgb(173, 145, 83) solid 1px;
+            background-color: aquamarine;
+            position: absolute;
+        }
+        .parent{
+            height: 50px;
+            width: 50px;
+            border: rgb(173, 145, 83) solid 1px;
+            background-color: aquamarine;
+            margin-left: 200px;
+            margin-top: 200px;
+            position: relative;
+            text-align: center;
+        }
+       .childB{
+        left:-30px;
+        top:-30px;
+       }
+       
+       .childC{
+        right:-30px;
+        top:-30px;
+       }
+       .childD{
+        bottom: -30px;
+        left: -30px;
+       }
+       .childE{
+        right:-30px;
+        bottom:-30px;
+       }    
+       
+    </STyle>
+</head>
+<body>
+    
+    <div class="parent">A
+        
+        <div class="child childB">B</div>
+        <div class="child childC">C</div>
+        <div class="child childD">D</div>
+        <div class="child childE">E</div>
+        
+        
+    </div>
+</body>
+</html>

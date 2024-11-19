@@ -1,0 +1,4 @@
+Q5. Explain about Z-index ?
+Ans. Z-index is used to specify order of elements in stack order.
+We can apply Z-indes only on positioned elements and flex elements.
+  Which ever element has heighest z-index value will be displayed on the top of others.if Z-index is not specified which ever last element on dom tree will be displayed on top.
