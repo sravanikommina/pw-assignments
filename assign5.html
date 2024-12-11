@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid Assign5</title>
+    <style>
+        /* 1.if justify self is applied to container, container itself will be placed right/left etc according to screen.
+        2.if justify self is applied to item level,items inside container will be placed with in container.
+        3. justify-items is normally applied to container level to position items within container.this will be override when
+         justify-self is applied to item level.  */
+         
+        .container{
+            background-color: brown;
+            max-width: 300px;
+            border: 1px solid black;
+            display: grid;
+            grid-template-columns: repeat(3,100px);
+            grid-template-rows: repeat(2,50px);
+            gap: 5px;
+            justify-items: right;
+            justify-self: center;
+        }   
+        .item{
+            background-color: aquamarine;
+            justify-self:left;
+
+        }
+    </style>    
+</head>
+<body>
+    <div class="container">
+        <div class="item a">A</div>
+        <div class="item b">B</div>
+        <div class="item c">C</div>
+        <div class="item d">D</div>
+        <div class="item e">E</div>
+        <div class="item d">F</div>
+    </div>
+</body>
+</html>
