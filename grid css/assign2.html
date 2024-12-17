@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assign2 css grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,80px);
+            grid-template-rows: repeat(2,50px);
+            gap: 5px;
+            justify-content: center;
+        }
+        .container>div{
+            background-color: antiquewhite;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .a{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .b{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+        <div class="d">D</div>
+    </div>
+</body>
+</html>

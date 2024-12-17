@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid assign4</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(6,150px);
+            grid-template-rows: repeat(2,100px);
+        }
+        .box{
+            background-color: rgba(46, 44, 44, 0.979);
+            color: white;
+            margin: 5px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size:22px;
+        }
+        .box1{
+            grid-area: 2/1/2/2;
+        }
+        .box2{
+            grid-area: 2/2/2/3;
+        }
+        .box:nth-child(even){
+            background-color: rgb(146, 141, 141);
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+        <div class="box box6">6</div>
+        <div class="box box7">7</div>
+        <div class="box box8">8</div>
+        </div>
+</body>
+</html>

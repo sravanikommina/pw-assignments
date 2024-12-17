@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=a, initial-scale=1.0">
+    <title>assign3 css grid</title>
+    <style>
+        /* grid-template-rows/columns specifies size of rows/columns.
+        grid-auto-rows/columns sets size for rows/columns, for those size is not set previously */
+        .container{
+            display: grid;
+            grid-template-rows: 50px;
+            grid-auto-rows: 150px;
+            grid-template-columns: repeat(2,100px);
+            gap: 3px;
+            justify-content: center;
+            margin: 20px;
+        }
+        .container>div{
+            background-color: burlywood;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="1">1</div>
+        <div class="2">2</div>
+        <div class="3">3</div>
+        <div class="4">4</div>
+        <div class="5">5</div>
+        <div class="6">6</div>
+    </div>
+</body>
+</html>
