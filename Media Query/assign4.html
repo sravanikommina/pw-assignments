@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Assign 4</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,33%);
+            grid-template-rows: repeat(4,150px);
+            gap: 10px;
+            margin-right: 10px;
+            color: white;
+        }
+       @media (max-width:500px){
+        .container{
+            grid-template-columns: 1fr;
+            grid-template-rows: 100px;
+            grid-auto-rows: 100px;
+            padding: 15px;
+            gap: 15px;
+        }
+       }
+    </style>
+
+</head>
+<body>
+   <div class="container">
+        <div class="box box1" style="background-color: red;">Box1</div>
+        <div class="box box2" style="background-color: green;">Box2</div>
+        <div class="box box3" style="background-color: blue;">Box3</div>
+        <div class="box box4" style="background-color: orangered;">Box4</div>
+   </div> 
+</body>
+</html>

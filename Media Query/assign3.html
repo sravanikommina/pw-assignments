@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query assign3</title>
+    <style>
+        div{
+            background-color: hsl(0, 0%, 0%);
+            display: flex;
+            height: 30px;
+        }
+        a{
+            color: white;
+            margin: auto;
+            text-decoration: none;
+        }
+        @media (max-width:768px){
+            div{
+                flex-direction: column;
+                row-gap: 10px;
+                height: 25%;
+                background-color: rgb(91, 95, 94);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="http://">Home</a>
+        <a href="http://">About</a>
+        <a href="http://">Services</a>
+        <a href="http://">Portfolio</a>
+        <a href="">Contact</a>
+    </div>
+</body>
+</html>
