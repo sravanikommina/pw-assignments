@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind css assign 1</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="/dist/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="flex flex-auto border-gray-200 border-2">
+        <div class="flex flex-col my-6 mx-6 items-center justify-center py-10 w-2/3 sm:w-full">
+            <div class="w-2/5 mx-auto sm:w-1/2">
+                <div class="flex flex-col items-center my-4">
+                    <h1 class="font-xl font-semibold ">Login</h1>
+                    <p class="text-gray-400">Enter your credentials to access your account</p>
+                </div>
+    
+                <div>
+                    <button class="border-gray-200 border-2 w-full py-4 rounded-sm">
+                        
+                        <span>Login with Google</span>
+                    </button>
+                </div>
+                <div class="flex items-center justify-center w-full py-2 gap-6 my-4">
+                    <div class="border-2 border-gray-200 h-[0.5px] w-full"></div>
+                    <div>Or</div>
+                    <div class="border-2 border-gray-200 h-[0.5px] w-full"></div>
+                </div> 
+                <!-- Email input field -->
+                <div class="flex flex-col mb-4">
+                    <label for="">Email</label>
+                    <input class="border-2 border-gray-200" type="email" placeholder="Enter Email address">
+                </div>
+                <!-- Password input field -->
+                <div class="flex flex-col">
+                    <div class="flex justify-between ">
+                        <span class="w-2/5"><label for="">Password</label></span>
+                        <span class="w-1/5"></span>
+                        <span class="w-2/5">
+                            <a class="text-blue-500 mr-0" href="" >Forgot password?</a>
+                        </span>
+                        
+                    </div>
+                    
+                    <input class="border-2 border-gray-200" type="password" placeholder="Enter your password">
+                </div> 
+                 <!--Submit button  --> 
+                 
+                    <button class="bg-blue-500 text-white w-full py-2 rounded-sm my-4">Login</button>
+                    <div class="flex justify-center">
+                        <p class="text-gray-400">Don't you have an account?</p><a href="#" class="text-black-200">Register here</a>
+                    </div>
+                 
+
+            </div>
+        </div>
+        <div class="hidden sm:hidden lg:block">
+            <img class="object-contain h-[90vh]" src="../Tailwind css/img.jpg" alt="" srcset="">
+        </div>
+    </div>
+    
+    
+</body>
+</html>        
+    
+    
+    
+            
+    
+            
+        
