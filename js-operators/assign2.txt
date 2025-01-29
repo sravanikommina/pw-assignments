@@ -1,0 +1,20 @@
+1.Arthmatic operator:
+	Additon(+) ex: 2+3
+	substraction (-) ex: 3-2
+	Multiplication (*) ex:2*3
+	Division(/) ex:6/2
+	Modulus(%) ex:3%2
+2.Comparision Operator:
+	ex: >, <, <=, >=,!=,==,===,!==
+3.Ternary Operator:
+	let ans= 3>2 ?"True" : "flase";
+4.Logical Operator:
+	And(&&), Or (||) ,Not(!)
+5.Assignment Operator:
+	Ex: =
+6.Bitwise Operator:
+	ex: &,|,^
+7.Unary Operator:
+	++(Increment operator),--(Decrement Operator)
+8.String concatenation operator:
+	ex: sravani +" "+kommina

@@ -1,0 +1,7 @@
+1.unary opeator : Those operator which needs only one operand to work on are clled as unary operator.
+	ex: ++,-- etc.
+2.Binary Operator: BInary operator needs two opearnds for operation.
+	ex: +,-,= etc
+3.Ternary Operator:These operator requires 3 operands
+	ex:const marks=80;
+	   const Result=marks>35 ? "Pass" : "Fail"
